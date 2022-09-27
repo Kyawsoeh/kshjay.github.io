@@ -1,5 +1,3 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
-</script><script type="text/javascript"> 
 var closedModalHashStateId = "#modalClosed"; var openModalHashStateId = "#modalOpen";window.location.hash = closedModalHashStateId; 
   
 $('#myModal').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal').on('hide.bs.modal', function(e) { window.history.back(); }); 
@@ -33,6 +31,3 @@ $('#myModal13').on('show.bs.modal', function(e) { window.location.hash = openMod
 $('#myModal14').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal14').on('hide.bs.modal', function(e) { window.history.back(); }); 
 
 $('#myModal15').on('show.bs.modal', function(e) { window.location.hash = openModalHashStateId; });$('#myModal15').on('hide.bs.modal', function(e) { window.history.back(); }); 
- 
-
-</script>
