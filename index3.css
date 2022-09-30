@@ -27,12 +27,12 @@ a.gdrive{
    }
 
 a.channel:hover{
-  border:2.5px solid #FFF000;
+  border:3px solid #FFF000;
   color:white; background-color: #033E3E;
 }
 
 a.gdrive:hover{
-  border:2.5px solid #FFF000;
+  border:3px solid #FFF000;
   color:white; background-color:#033E3E;
 }
  
