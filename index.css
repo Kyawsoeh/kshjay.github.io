@@ -30,8 +30,9 @@ text-align:center;
  }
 
 a.mm:hover{
-        color:#FFF000;
-        background-color:#1095c1;
+        color:#FFFFFF;
+        background-color:#045F5F;
+        border:3px solid #FFF000;
 }
 
 a.mm{
@@ -49,20 +50,18 @@ a.mm{
 
 span{
     position: absolute;
-    top:0;
-    left:0rem;
+    top:3px;
+    left:3px;
     padding:0 10px;
     line-height:2em;
     color:white;
     font-size:80%;
     font-family:Fantasy;
     background-color:red;
-    border-radius: 10px;
     border-top-right-radius: 0px;
+    border-top-left-radius: 7px;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 0px;
-    border-top:3px solid #990000;    
-    border-left:3px solid #990000;
     
 }
 .container {
